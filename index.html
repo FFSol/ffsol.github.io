@@ -1,122 +1,35 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>The Sandbox</title>
-<style type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Title</title>
 
-* {
-  padding: 0;
-  margin:0;
-}
-
-body {
-  font-family: sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: #00A5CC;
-}
-
-li {
-  list-style-type: none;
-}
-
-header {
-  width: 100%;
-  height: 50px;
-  margin: auto;
-  border-bottom: 1px solid #EEE;
-}
-
-#heady {
-  float: left;
-  line-height: 50px;
-  color: #E5DAC0;
-  font-size: 25px;
-  font-weight: bolder;
-}
-
-nav {
-  width: 100%;
-  text-align: center;
-}
-
-nav a {
-  display: block;
-  padding: 15px 0;
-  border-bottom: 1px solid #B49755;
-  color: #F6EADC;
-}
-
-nav a:hover {
-  background: #E5DAC0;
-  color: #FFF;
-}
-
-nav li:last-child a {
-  border-bottom: none;
-}
-
-/*-------------------------*/
-
-.sidebar {
-  width: 300px;
-  height: 100%;
-  position: absolute;
-  background: #D9C9A3;
-  left: -300px;
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-  border-radius: 5px;
-}
-
-.sidebar-icon {
-  padding: 10px 20px;
-  background: #E5DAC0;
-  color: #987D3E;
-  cursor: pointer;
-  float: right;
-}
-
-#sidebarToggle {
-  display: none;
-}
-
-#sidebarToggle:checked ~ .sidebar {
-  position: absolute;
-  left: 0;
-}
-
-</style>
-
-    </head>
-    <body>
-
-        <input type="checkbox" id="sidebarToggle">
-        <label for="sidebarToggle" class="sidebar-icon">&#9776;</label>
-        
-        <header>
-          <div id="heady">Armani</div>
-        </header>
-        
-        <nav class="sidebar">
-          <ul>
-            <li><a href="#H">Home</a></li>
-            <li><a href="#AM">About Me</a></li>
-            <li><a href="#P">Projects</a></li>
-            <li><a href="#CL">Clients</a></li>
-            <li><a href="#S">Skills</a></li>
-            <li><a href="#CO">Contact</a></li>
-            <li><a href="#CH">Changelog</a></li>
-          </ul>
-        </nav>
-
-
-
-    </body>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	
+	<script type="text/javascript" src="/common/js/jquery.js"></script>
+    <script type="text/javascript" src="/common/js/bootstrap.min.js"></script>
+	
+  </head>
+  <body>
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Test Head</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<h1>Test Head2</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>    
+  </body>
+  
+  
 </html>
